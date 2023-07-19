@@ -299,7 +299,7 @@ nav {
 /* footer section start */
 
 .footer {
-  height: 600px;
+  height: 700px;
   background: #0b0223;
 }
 .footer-logo {
@@ -366,7 +366,7 @@ nav {
 }
 .footer-copyright {
   text-align: center;
-  padding-top: 40px;
+  margin-top: 50px;
 }
 .footer-copyright p {
   color: rgba(255, 255, 255, 0.6);
@@ -441,6 +441,23 @@ nav {
   }
   .online-games-container {
     padding: 70px 20px 150px 20px;
+  }
+  /* footer */
+  .footer-about ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 50px 50px 10px 50px;
+  }
+  .footer-about ul li a {
+    font-size: 1.5rem;
+  }
+  .footer-condition ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 60px;
+  }
+  .footer-copyright {
+    margin-top: 50px;
   }
 }
 /* mobile responsive sec end */
